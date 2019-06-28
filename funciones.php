@@ -13,7 +13,7 @@
         $claseTarjeta = "dark";
     }
 
-    echo '    <div class="card  col-md-3 text-white bg-'.$claseTarjeta.'" >' ;
+    echo '    <div class="card text-white bg-'.$claseTarjeta.'" >' ;
     echo '        <div class="card-header">'.$estado.'</div>' ;
     echo '        <div class="card-body">' ;
     echo '            <h5 class="card-title">'.$titulo.'</h5>' ;

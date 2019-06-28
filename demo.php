@@ -24,7 +24,7 @@
 
             <hr>
 
-            <div class="col">
+            <div class="card-columns">
             <?php 
            
             $miconsultasql = ("SELECT Titulo, Contenido, Estado FROM tareas");
