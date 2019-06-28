@@ -16,20 +16,24 @@
     <div class="container jumbo">
 
         <div class="row jumbo">
-
-            <div class="card text-white bg-secondary" >
-                <div class="card-header">Estado</div>
-                <div class="card-body">
-                    <h5 class="card-title">Titulo</h5>
-                    <p class="card-text">Contenido</p>
-                </div>
-            </div>  
             
+
+
             <hr>
-            <?php mitarjeta() ; ?>
+            <?php 
+            $estadito = "warning";
+            $titulazo = "Estamos probando";
+            $contenido = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi molestiae asperiores ipsam hic blanditiis similique illo voluptate ullam autem ea. Adipisci temporibus distinctio, molestias quod ipsam veniam aliquid porro tenetur!" ;
+
+            
+            
+            mitarjeta($estadito, $titulazo, $contenido) ; 
+            
+            
+            ?>
 
 
-        </div>
+        </div> 
 
     </div>
 
