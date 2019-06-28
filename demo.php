@@ -4,6 +4,9 @@
     <title>DMG Renovado</title>
     <?php include 'metas.php'; ?>
 
+    <?php include 'conexion.php'; ?>
+
+
 
 
 </head>
@@ -20,17 +23,34 @@
 
 
             <hr>
+
+            <div class="col">
             <?php 
-            $estadito = "warning";
-            $titulazo = "Estamos probando";
-            $contenido = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi molestiae asperiores ipsam hic blanditiis similique illo voluptate ullam autem ea. Adipisci temporibus distinctio, molestias quod ipsam veniam aliquid porro tenetur!" ;
+           
+            $miconsultasql = ("SELECT Titulo, Contenido, Estado FROM tareas");
+
+            $consulta = $miconexion -> query ($miconsultasql);
+
+            while ($registro = $consulta -> fetch_assoc ()) { 
+
+                $estado = $registro['Estado'];
+                $titulo = $registro['Titulo'];
+                $contenido = $registro['Contenido'];
+
+                mitarjeta($estado, $titulo, $contenido) ; 
+
+            
+            }
+
+
 
             
             
-            mitarjeta($estadito, $titulazo, $contenido) ; 
             
             
             ?>
+
+        </div>
 
 
         </div> 
