@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>DMG Renovado</title>
+
+    <!-- Meta etiquetas -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Css -->
+    <!-- Css de Bootstrap -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ 
+    <!-- Css font awesome -->
+    <script src="https://kit.fontawesome.com/69e534e431.js"></script>
+
+    <!-- Mis estilos -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+
+    <!-- Aquí el encabezado -->
+    <header class="container-fluid">
+        <div class="row">
+
+            <div class="col-md-12">
+
+                <!-- Barra de navegación -->
+                <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+
+                    <!-- Logo de la página -->
+                    <img src="http://lorempixel.com/200/50" alt="Logo de la página">
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <span class="fas fa-home"></span>
+                                    Inicio
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <span class="fas fa-address-card"></span>
+                                    Acerca de
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <span class="fas fa-cogs"></span>
+                                    Servicios
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <span class="fas fa-briefcase"></span>
+                                    Portafolio
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" id="desplegable" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="fas fa-copy"></span>
+                                    Páginas
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="desplegable">
+                                    <a class="dropdown-item" href="#">Blog</a>
+                                    <a class="dropdown-item" href="#">FAQ</a>
+                                    <a class="dropdown-item" href="#">404 </a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <span class="fas fa-blog"></span>
+                                    Blog
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <span class="fas fa-user"></span>
+                                    Contacto |
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <span class="fas fa-lock"></span>
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </nav>
+
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Aquí la galería -->
+    <section class="container-fluid">
+        <div class="row">
+
+            <div class="galeria-tope">
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-inner">
+                        
+                        <!-- Items de la galería - carousel-item  -->
+                        <div class="carousel-item active bg-info text-white">
+
+                            <div class="row">
+
+                                <div class="col-md-6 caja-galeria jumbo texto-galeria">
+                                    <h2 class="display-4">Unique solutions</h2>
+                                    <p>lorem bla bla bla bla bla bla bla </p>
+                                    <p><button class="btn btn-large btn-galeria">Aprender más</button></p>
+                                </div>
+                                <div class="col-md-6 caja-galeria">
+                                    <img src="img/sample/slider/img1.png" alt="">
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="carousel-item bg-warning text-white">
+
+                            <div class="row">
+
+                                <div class="col-md-6 caja-galeria jumbo texto-galeria">
+                                    <h2 class="display-4">Unique solutions</h2>
+                                    <p>lorem bla bla bla bla bla bla bla </p>
+                                    <p><button class="btn btn-large btn-galeria">Aprender más</button></p>
+                                </div>
+                                <div class="col-md-6 caja-galeria">
+                                    <img src="img/sample/slider/img2.png" alt="">
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="carousel-item bg-danger text-white">
+
+                            <div class="row">
+
+                                <div class="col-md-6 caja-galeria jumbo texto-galeria">
+                                    <h2 class="display-4">Unique solutions</h2>
+                                    <p>lorem bla bla bla bla bla bla bla </p>
+                                    <p><button class="btn btn-large btn-galeria">Aprender más</button></p>
+                                </div>
+                                <div class="col-md-6 caja-galeria">
+                                    <img src="img/sample/slider/img3.png" alt="">
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Botones de la galería -->
+                        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Anterior</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Siguiente</span>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Aquí el jumbo 1 -->
+    <section class="container">
+        <div class="row jumbo">
+
+            <div class="col-md-9">
+                <h2> <small> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas</small> </h2>
+                <p class="lead text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, facere.  tis!</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <button class="btn btn-large btn-success">Descarga gratuita</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Qué ofrecemos -->
+    <section class="container-fluid bg-dark text-white jumbo">
+        <div class="row text-center">
+
+            <div class="col-md-12">
+                <h2>¿Que ofrecemos?</h2>
+                <p class="lead">Look at some of the recent projects we have completed for our valuble clients</p>
+            </div>
+
+        </div>
+
+        <!-- Fila de servicios ofrecidos -->
+        <div class="row">
+
+            <div class="col-md-4">
+
+                <div class="card mb-3 bg-dark text-white border-0">
+                    <div class="row no-gutters">
+                        <div class="col-md-4 text-right text-success">
+                            <span class="fas fa-globe fa-2x my-4"></span>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Web Design</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="card mb-3 bg-dark text-white border-0">
+                    <div class="row no-gutters">
+                        <div class="col-md-4 text-right text-success">
+                            <span class="fas fa-hand-point-right fa-2x my-4"></span>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Graphic Design</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+
+                <div class="card mb-3 bg-dark text-white border-0">
+                    <div class="row no-gutters">
+                        <div class="col-md-4 text-right text-success">
+                            <span class="fas fa-envelope fa-2x my-4"></span>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Email Marketing</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+
+                <div class="card mb-3 bg-dark text-white border-0">
+                    <div class="row no-gutters">
+                        <div class="col-md-4 text-right text-success">
+                            <span class="fas fa-shopping-card fa-2x my-4"></span>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Ecommerce Solution</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+
+                <div class="card mb-3 bg-dark text-white border-0">
+                    <div class="row no-gutters">
+                        <div class="col-md-4 text-right text-success">
+                            <span class="fas fa-globe fa-2x my-4"></span>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">SEO & Solution</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+
+                <div class="card mb-3 bg-dark text-white border-0">
+                    <div class="row no-gutters">
+                        <div class="col-md-4 text-right text-success">
+                            <span class="fab fa-bootstrap fa-2x my-4"></span>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Bootstrap</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Trabajos recientes -->
+    <section class="container-fluid bg-success text-white">
+        <div class="row text-center jumbo">
+            <div class="col-md-12">
+                <h2>Nuestros trabajos recientes</h2>
+                <p class="lead">Look at some of the recent projects we have completed for our valuble clients</p>
+            </div>
+        </div>
+
+        <!-- filas de trabajos recientes -->
+        <div class="row">
+
+            <div class="col-md-3">
+                <img class="img-fluid" src="img/portfolio/thumb/item1.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet</p>
+
+            </div>
+            <div class="col-md-3">
+                <img class="img-fluid" src="img/portfolio/thumb/item2.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="col-md-3">
+                <img class="img-fluid" src="img/portfolio/thumb/item3.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="col-md-3">
+                <img class="img-fluid" src="img/portfolio/thumb/item4.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+
+        </div>
+
+        <!-- Fila de separación -->
+        <div class="row my-3">
+            &nbsp;
+        </div>
+
+    </section>
+
+    <!-- Nuestros partners -->
+    <section class="container">
+        <div class="row jumbo">
+
+            <div class="col-md-2 text-muted">
+                <div class="bg-dark float-right">
+
+                    <!-- Botones de la galería movidos por diseño -->
+                    <a class="" href="#nuestrosClientes" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="" href="#nuestrosClientes" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
+                </div>
+
+                <h2>Nuestros aliados</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo repellat accusamu</p>
+            </div>
+
+            <!-- Galería de clientes -->
+            <div class="col-md-10">
+
+                <div id="nuestrosClientes" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-inner">
+
+                        <!-- Cada item es una diapositiva -->
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="img/sample/clients/client1.png" alt="">
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="img/sample/clients/client2.png" alt="">
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="img/sample/clients/client3.png" alt="">
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="img/sample/clients/client4.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="img/sample/clients/client2.png" alt="">
+
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="img/sample/clients/client1.png" alt="">
+
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="img/sample/clients/client4.png" alt="">
+
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="img/sample/clients/client3.png" alt="">
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="container-fluid bg-dark text-white jumbo">
+
+        <!-- Pie de página -->
+        <section class="row">
+
+            <div class="col-md-3">
+                <h2 class="pie-titulos"> Dirección </h2>
+                <address class="text-muted">
+
+                    <span class="fas fa-home"></span> Address: 1032 Wayback Lane, Wantagh NY 11793 <br />
+                    <span class="fas fa-envelope"></span> Email: support@email.com <br />
+                    <span class="fas fa-globe"></span> Website: www.domain.com <br />
+                    <span class="fas fa-phone"></span> Toll Free: 631-409-3105
+
+                </address>
+            </div>
+            <div class="col-md-2">
+                <h2 class="pie-titulos"> Nuestra Cia </h2>
+
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link btn-dark text-muted" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-dark text-muted" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-dark text-muted" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-dark text-muted" href="#">Link</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col-md-2">
+                <h2 class="pie-titulos"> Archivos </h2>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link btn-dark text-muted" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-dark text-muted" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-dark text-muted" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-dark text-muted" href="#">Link</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-5">
+                <h2 class="pie-titulos"> Galería </h2>
+
+                <div class="row no-gutters">
+                    <div class="col-md-3"><img src="http://lorempixel.com/300/300/nature" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-3"><img src="http://lorempixel.com/300/300/city" class="img-fluid" alt=""></div>
+                    <div class="col-md-3"><img src="http://lorempixel.com/300/300/cats" class="img-fluid" alt=""></div>
+                    <div class="col-md-3"><img src="http://lorempixel.com/300/300/people" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="row no-gutters">
+
+                    <div class="col-md-3"><img src="http://lorempixel.com/300/300/city" class="img-fluid" alt=""></div>
+                    <div class="col-md-3"><img src="http://lorempixel.com/300/300/cats" class="img-fluid" alt=""></div>
+                    <div class="col-md-3"><img src="http://lorempixel.com/300/300/people" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-3"><img src="http://lorempixel.com/300/300/nature" class="img-fluid" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Copy right -->
+        <section class="row my-3 text-muted">
+
+            <div class="col-md-3">
+                2019 - &copy; Edison en clase - copyleft
+            </div>
+            <div class="col-md-8 text-right px-2">
+                <a href="#" class="btn btn-dark text-muted"> <span class="fab fa-youtube"></span> </a>
+                <a href="#" class="btn btn-dark text-muted"> <span class="fab fa-facebook"></span> </a>
+                <a href="#" class="btn btn-dark text-muted"> <span class="fab fa-twitter"></span> </a>
+                <a href="#" class="btn btn-dark text-muted"> <span class="fab fa-instagram"></span> </a>
+                <a href="#" class="btn btn-dark text-muted"> <span class="fab fa-blogger"></span> </a>
+            </div>
+            <div class="col-md-1">
+                <a class="btn btn-dark" href="#"><span class="fas fa-arrow-up"></span></a>
+            </div>
+
+        </section>
+
+    </footer>
+
+    <!-- jS GLOBAL -->
+    <!-- Js Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

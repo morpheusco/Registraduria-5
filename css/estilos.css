@@ -1,0 +1,22 @@
+.jumbo {
+    padding:50px 20px;
+}
+.galeria-tope {
+    margin-top:60px;
+}
+
+.caja-galeria {
+    width: 50vw;
+}
+.texto-galeria {
+    top:100px;
+    left:120px;
+}
+.btn-galeria {
+    background-color:none;
+    border:2px solid white;
+}
+.pie-titulos {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
